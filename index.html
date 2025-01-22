@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio hansdemaria 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+    <style>
+        body {
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+header{
+    font-family: "Chivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+    padding-bottom: 1vh;
+    font-size: 3rem;
+}
+h2{
+    padding-top: 95%;
+
+}
+.flor {
+    position: relative;
+}
+
+.pétalos {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    z-index: 0;
+}
+
+.centro {
+    width: 40px;
+    height: 40px;
+    background-color: fuchsia;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.tallo {
+    width: 10px;
+    height: 200px;
+    background-color: fuchsia;
+    position: absolute;
+    bottom: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hoja {
+    width: 80px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hoja.izquierda {
+    left: -60px;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.hoja.derecha {
+    right: -60px;
+    transform: translateY(-50%) rotate(45deg);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+    gap: 10px;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.recuadro {
+    background-color: #4caf50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 5.5rem;
+    text-align: center;
+}
+
+/* Media query para pantallas menores a 600px */
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr; /* Una columna */
+    }
+}
+
+    </style>
+    <body>
+        <header>
+        <h1>portfolio <a href="https://www.instagram.com/hansdemaria/" class="hansdemaria">hansdemaria</a> 2025</h1>
+        <h2>sistemas de representación</h2>
+        </header>
+        <div class="flor">
+            <div class="hoja izquierda"></div>
+            <div class="hoja derecha"></div>
+            <div class="pétalos"></div>
+            <div class="centro"></div>
+            <div class="tallo"></div>
+        </div>
+        <div class="grid">
+                <a href="https://hansdemaria.github.io/2DG_ej1/" class="recuadro">1</a>
+                <a href="https://hansdemaria.github.io/2DG_ej2/" class="recuadro">2</a>
+                <a href="https://hansdemaria.github.io/2DG_ej3/" class="recuadro">3</a>
+                <a href="https://hansdemaria.github.io/2DG_ej4/" class="recuadro">4</a>
+                <a href="https://www.figma.com/design/1aU19UMtnyLDr6U6w4aZix/EJ3?m=auto&t=VCJzeb5WYgxmHAUF-1" class="recuadro">5</a>
+                <a href="https://hansdemaria.github.io/p6/" class="recuadro">6</a>
+                <a href="https://hansdemaria.github.io/p7_portfolio/" class="recuadro">7</a>
+                <a href="https://hansdemaria.github.io/p8_flexbox/" class="recuadro">8</a>
+                <a href="https://oscarhove.bigcartel.com/about" class="recuadro">9</a>
+                <a href="https://www.figma.com/design/1aU19UMtnyLDr6U6w4aZix/EJ3?node-id=96-2&t=S6qxzuiG9o1yK3s2-0" class="recuadro">10</a>
+                <a href="https://www.figma.com/design/1aU19UMtnyLDr6U6w4aZix/EJ3?node-id=117-25&t=S6qxzuiG9o1yK3s2-0" class="recuadro">11</a>
+                <a href="https://hansdemaria.github.io/ej_12/" class="recuadro">12</a>
+                <a href="https://hansdemaria.github.io/ej13/" class="recuadro">13</a>
+                <a href="https://hansdemaria.github.io/ej14/" class="recuadro">14</a>
+                <a href="https://hansdemaria.github.io/p_15/" class="recuadro">15</a>
+            </div>
+</body>
+</html>
+
